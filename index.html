@@ -14,242 +14,362 @@
 
 <body>
 
-<header class="navbar">
-    <div class="container nav-container">
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
-        <a href="#home" class="logo">
-            FRESH<span>CUT</span>
-        </a>
+    <header class="navbar">
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="container nav-container">
 
-    </div>
-</header>
-
-
-<!-- HERO -->
-
-<section id="home" class="hero barber-hero">
-
-    <div class="hero-content">
-
-        <p class="small-title">NEWCASTLE • KWAZULU-NATAL</p>
-
-        <h1>
-            Sharp Cuts.<br>
-            <span>Clean Finish.</span>
-        </h1>
-
-        <p class="hero-text">
-            Professional barbering, modern fades and
-            clean grooming — made for you.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="#contact" class="btn primary">
-                Book Appointment
+            <a href="#home" class="logo">
+                FRESH<span>CUT</span>
             </a>
 
-            <a href="#services" class="btn secondary">
-                View Services
-            </a>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- SERVICES -->
+    <!-- =========================
+         HERO
+    ========================== -->
 
-<section id="services" class="section">
+    <section id="home" class="hero barber-hero">
 
-    <div class="container">
+        <div class="hero-content">
 
-        <p class="section-label">OUR SERVICES</p>
-
-        <h2>Look Good.<br>Feel Good.</h2>
-
-        <p class="section-description">
-            From classic cuts to modern fades, we've got
-            your style covered.
-        </p>
-
-
-        <div class="services-grid" id="servicesGrid"></div>
-
-            <div class="service-card">
-
-                <div class="icon">01</div>
-
-                <h3>Classic Haircut</h3>
-
-                <p>
-                    A clean, professional haircut finished
-                    exactly the way you like it.
-                </p>
-
-                <strong>R80</strong>
-
-            </div>
-
-
-            <div class="service-card">
-
-                <div class="icon">02</div>
-
-                <h3>Fade</h3>
-
-                <p>
-                    Modern low, mid or high fades with
-                    a sharp and clean finish.
-                </p>
-
-                <strong>R100</strong>
-
-            </div>
-
-
-            <div class="service-card">
-
-                <div class="icon">03</div>
-
-                <h3>Beard Trim</h3>
-
-                <p>
-                    Shape, trim and clean your beard
-                    for a fresh finished look.
-                </p>
-
-                <strong>R50</strong>
-
-            </div>
-
-
-            <div class="service-card">
-
-                <div class="icon">04</div>
-
-                <h3>Hair + Beard</h3>
-
-                <p>
-                    Complete grooming package including
-                    your haircut and beard.
-                </p>
-
-                <strong>R130</strong>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- GALLERY -->
-
-<section id="gallery" class="gallery-section">
-
-    <div class="container">
-
-        <p class="section-label">OUR WORK</p>
-
-        <h2>Fresh Every Time.</h2>
-
-        <div class="gallery-grid">
-
-            <img
-                src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85"
-                alt="Barber haircut">
-
-            <img
-                src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85"
-                alt="Barber grooming">
-
-            <img
-                src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85"
-                alt="Barbershop">
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section id="about" class="about">
-
-    <div class="container about-grid">
-
-        <div>
-
-            <p class="section-label">ABOUT FRESHCUT</p>
-
-            <h2>Your Style.<br>Our Craft.</h2>
-
-            <p>
-                FreshCut Barbers is a local Newcastle
-                barbershop focused on quality cuts,
-                attention to detail and great service.
+            <p class="small-title">
+                NEWCASTLE • KWAZULU-NATAL
             </p>
 
+            <h1>
+                Sharp Cuts.<br>
+                <span>Clean Finish.</span>
+            </h1>
+
+            <p class="hero-text">
+                Professional barbering, modern fades and
+                clean grooming — made for you.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn primary">
+                    Book Appointment
+                </a>
+
+                <a href="#services" class="btn secondary">
+                    View Services
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section id="services" class="section">
+
+        <div class="container">
+
+            <p class="section-label">
+                OUR SERVICES
+            </p>
+
+            <h2>
+                Look Good.<br>
+                Feel Good.
+            </h2>
+
+            <p class="section-description">
+                From classic cuts to modern fades,
+                we've got your style covered.
+            </p>
+
+            <!-- JavaScript generates the service cards here -->
+
+            <div
+                class="services-grid"
+                id="servicesGrid">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         GALLERY
+    ========================== -->
+
+    <section id="gallery" class="gallery-section">
+
+        <div class="container">
+
+            <p class="section-label">
+                OUR WORK
+            </p>
+
+            <h2>
+                Fresh Every Time.
+            </h2>
+
+            <div class="gallery-grid">
+
+                <img
+                    src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85"
+                    alt="Barber haircut">
+
+                <img
+                    src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85"
+                    alt="Barber grooming">
+
+                <img
+                    src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85"
+                    alt="Modern barbershop">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about" class="about">
+
+        <div class="container about-grid">
+
+            <div>
+
+                <p class="section-label">
+                    ABOUT FRESHCUT
+                </p>
+
+                <h2>
+                    Your Style.<br>
+                    Our Craft.
+                </h2>
+
+                <p>
+                    FreshCut Barbers is a local Newcastle
+                    barbershop focused on quality cuts,
+                    attention to detail and great service.
+                </p>
+
+                <p>
+                    Whether you want a classic haircut,
+                    a fresh fade or a clean beard trim,
+                    we'll make sure you leave looking fresh.
+                </p>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <strong>5★</strong>
+
+                <span>
+                    Quality • Style • Service
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         REVIEWS
+    ========================== -->
+
+    <section class="section reviews">
+
+        <div class="container">
+
+            <p class="section-label">
+                CUSTOMER REVIEWS
+            </p>
+
+            <h2>
+                What Our Clients Say
+            </h2>
+
+
+            <div class="reviews-grid">
+
+                <div class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Great service and the fade came out
+                        exactly how I wanted it."
+                    </p>
+
+                    <strong>
+                        — Thabo
+                    </strong>
+
+                </div>
+
+
+                <div class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Friendly barber and a really clean
+                        shop. Definitely coming back."
+                    </p>
+
+                    <strong>
+                        — Sibusiso
+                    </strong>
+
+                </div>
+
+
+                <div class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Best haircut I've had in a while.
+                        Highly recommended."
+                    </p>
+
+                    <strong>
+                        — Liam
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section
+        id="contact"
+        class="section contact-section">
+
+        <div class="container">
+
+            <p class="section-label">
+                BOOK YOUR CUT
+            </p>
+
+            <h2>
+                Ready for a Fresh Cut?
+            </h2>
+
+            <p class="section-description">
+                Send us a WhatsApp message or give us
+                a call to book your appointment.
+            </p>
+
+
+            <div class="contact-buttons">
+
+                <a
+                    href="https://wa.me/27000000000"
+                    class="btn primary"
+                    target="_blank"
+                    rel="noopener">
+
+                    WhatsApp Us
+
+                </a>
+
+
+                <a
+                    href="tel:+27000000000"
+                    class="btn secondary">
+
+                    Call Us
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-info">
+
+                <p>
+                    📍 Newcastle, KwaZulu-Natal
+                </p>
+
+                <p>
+                    📞 +27 00 000 0000
+                </p>
+
+                <p>
+                    🕒 Mon–Sat: 08:00–18:00
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container">
+
             <p>
-                Whether you want a classic haircut,
-                a fresh fade or a clean beard trim,
-                we'll make sure you leave looking fresh.
+                © 2026 FreshCut Barbers.
+                All rights reserved.
             </p>
 
         </div>
 
-
-        <div class="about-box">
-
-            <strong>5★</strong>
-
-            <span>
-                Quality • Style • Service
-            </span>
-
-        </div>
-
-    </div>
-
-</section>
+    </footer>
 
 
-<!-- REVIEWS -->
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
 
-<section class="section reviews">
+    <script src="business.js"></script>
+    <script src="script.js"></script>
 
-    <div class="container">
-
-        <p class="section-label">CUSTOMER REVIEWS</p>
-
-        <h2>What Our Clients Say</h2>
-
-
-        <div class="reviews-grid">
-
-            <div class="review-card">
-
-                <div class="stars">★★★★★</div>
-
-                <p>
-                    "Great
-
-<!-- CONNECTERS -->
-
-<script src="business.js"></script>
-<script src="script.js"></script>
+</body>
+</html>
