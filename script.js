@@ -145,4 +145,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
+/*
+ * ============================
+ * DYNAMIC SERVICES
+ * ============================
+ */
+
+const servicesGrid =
+    document.querySelector("#servicesGrid");
+
+if (servicesGrid && business.services) {
+
+    servicesGrid.innerHTML =
+        business.services.map((service, index) => {
+
+            const number =
+                String(index + 1).padStart(2, "0");
+
+            return `
+                <div class="service-card">
+
+                    <div class="icon">${number}</div>
+
+                    <h3>${service.name}</h3>
+
+                    <p>${service.description}</p>
+
+                    <strong>${service.price}</strong>
+
+                </div>
+            `;
+
+        }).join("");
+
+}
+
 });
